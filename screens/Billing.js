@@ -26,7 +26,7 @@ export default function Billing({navigation}) {
           <ScrollView>
           <View style={{ margin: 10 }}>
               <Input
-                placeholder='Full Name'
+                placeholder='halll nananana'
               
               />
             </View>
