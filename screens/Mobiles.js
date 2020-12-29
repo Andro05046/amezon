@@ -1,12 +1,67 @@
 import React, { Component } from 'react';
-import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button, Row, View } from 'native-base';
+import { Container, Header, Content, List, ListItem, Thumbnail, Text, Left, Body, Right, Button, Row, View,Title } from 'native-base';
 import FAIcon from 'react-native-vector-icons/FontAwesome';
 import Slideimage from '../Components/Slideimage';
-import { TouchableOpacity } from 'react-native'
+import { TouchableOpacity } from 'react-native';
+import {Icon} from 'react-native-elements';
+import { ScrollView } from 'react-native-gesture-handler';
 export default function Mobiles({ navigation }) {
 
   return (
     <Container>
+        <Header style={{backgroundColor:'#4e586c',alignItems:'center',justifyContent:'flex-start'}}>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.goBack();
+          }}
+        >
+          <Icon style={{marginRight:50,}}  name='angle-left' type='font-awesome' size={30} color='#fff' />
+        </TouchableOpacity>
+        <Title><Text onPress={() => navigation.navigate("Shopbycatagory")} style={{color:'#fff',fontWeight:'bold',fontSize:20}}>Shopbycatagory</Text></Title>
+          </Header>
+          <Header style={{backgroundColor:'#FF9900',alignItems:"center"}}>
+              
+<View style={{flex:1,flexDirection:'row',}}>
+<ScrollView horizontal={true}>
+<View style={{margin:10}}>
+    <Text  onPress={() => {
+            navigation.navigate("Mobile");
+          }}  style={{fontSize:17,color:'#fff',backgroundColor:'transparent',padding:5,borderRadius:5,alignItems:"center"}}>📱Mobiles</Text>
+</View>    
+<View style={{margin:10}}>
+    <Text  onPress={() => {
+            navigation.navigate("Tv");
+          }}  style={{fontSize:17,color:'#fff',backgroundColor:'#757d8d',padding:5,borderRadius:5}}>📺 Tv</Text>
+</View>    
+
+<View style={{margin:10}}>
+    <Text onPress={() => {
+            navigation.navigate("Shopbycatogory");
+          }}  style={{fontSize:17,color:'#fff',backgroundColor:'#757d8d',padding:5,borderRadius:5}}>
+    👗 Ladies Cloths</Text>
+</View>    
+
+<View style={{margin:10}}>
+   <Text  onPress={() => {
+            navigation.navigate("Shopbycatogory");
+          }}  style={{fontSize:17,color:'#fff',backgroundColor:'#757d8d',padding:5,borderRadius:5}}>👖 Mens Cloths</Text>
+</View>
+<View style={{margin:10}}>
+   <Text  onPress={() => {
+            navigation.navigate("Shopbycatogory");
+          }}  style={{fontSize:17,color:'#fff',backgroundColor:'#757d8d',padding:5,borderRadius:5}}>👖 Baby Cloths</Text>
+</View>    
+</ScrollView>
+
+
+
+
+
+
+
+</View>
+
+</Header>
       <Content>
         <List>
           <ListItem thumbnail>

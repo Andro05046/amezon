@@ -10,6 +10,8 @@ import Newaddress from './screens/Newaddress';
 import Productlist from './screens/Productlist';
 import Cart from './screens/Cart';
 import Shopbycatagory from './screens/Shopbycatagory';
+import Mobiles from './screens/Mobiles';
+import Tv from './screens/Tv';
 const CustomDrawerContentComponent = props => {
   return (
     <Container>
@@ -40,6 +42,8 @@ class App extends Component {
         <Drawer.Screen name="Newaddress" component={Newaddress} />
         <Drawer.Screen name="Productlist" component={Productlist} />
         <Drawer.Screen name="Shopbycatagory" component={Shopbycatagory} />
+        <Drawer.Screen name="Mobiles" component={Mobiles} />
+        <Drawer.Screen name="Tv" component={Tv} />
       </Drawer.Navigator>
     </NavigationContainer>
     );
