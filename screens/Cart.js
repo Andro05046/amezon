@@ -29,7 +29,7 @@ export default function Cart({ navigation }) {
     {
       id: 'PID000106',
       name: 'Sumsung,Galexy',
-      company: 'Sumsung',
+      company: 'nokia',
       img:
         'https://images.ctfassets.net/d6skzop43my5/6OyxwWln6Ke5UuX8hHLzZZ/5ae77b5f60dada8a8be63a0102ac7e45/nokia_5_3-front-cyan.png?q=50',
       quantity: 1,

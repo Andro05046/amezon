@@ -53,7 +53,7 @@ export default function Todaysdeals({navigation}) {
 
               <Button large style={{ borderRadius: 5, width: 350, hight:50, justifyContent: 'center', marginLeft: 30, marginTop: 20 }} iconLeft dark >
                 <Icon color='white' name='shopping-cart' />
-                <Text onPress={() => navigation.navigate("Home")} style={{ fontSize: 20 }}>CONTINUE SHOPPING</Text>
+                <Text onPress={() => navigation.navigate("Home")} style={{ fontSize: 20 }}>CONTINUE shop</Text>
               </Button>
             </View>
           </ScrollView>
