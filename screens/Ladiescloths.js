@@ -19,7 +19,7 @@ import FAIcon from 'react-native-vector-icons/FontAwesome';
 import Slideimage from '../Components/Slideimage';
 import {TouchableOpacity, ScrollView} from 'react-native';
 import {Icon} from 'react-native-elements';
-export default function Tv({navigation}) {
+export default function Ladiescloths({navigation}) {
   return (
     <Container>
       <Header
@@ -75,7 +75,7 @@ export default function Tv({navigation}) {
                 style={{
                   fontSize: 17,
                   color: '#fff',
-                  backgroundColor: 'transparent',
+                  backgroundColor: '#757d8d',
                   padding: 5,
                   borderRadius: 5,
                 }}>
@@ -91,7 +91,7 @@ export default function Tv({navigation}) {
                 style={{
                   fontSize: 17,
                   color: '#fff',
-                  backgroundColor: '#757d8d',
+                  backgroundColor: 'transparent',
                   padding: 5,
                   borderRadius: 5,
                 }}>
@@ -141,14 +141,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563370711-best-overall-tcl-32s327-1542026616.jpg?crop=1xw:1xh;center,top&resize=480:*',
+                    'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQdTVB0S5gj1QWy4Q74fQA02286vFezJ3nsPaGOcalMzY-UWceq-ylyoyarxRssbOagGgk7gQ&usqp=CAY',
                 }}
               />
             </Left>
             <Body>
-              <Text>Onida</Text>
+              <Text>nitra</Text>
               <Text note numberOfLines={3}>
-                Onida(,8GB RAM, 128GB Storage)
+                Nira Fashion Women Gown Blue Dress
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -164,7 +164,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                800
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -175,7 +175,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  699.00
                 </Text>
               </View>
             </Body>
@@ -194,14 +194,16 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://www.lg.com/hk_en/images/tvs/32ls3500/gallery/large02.jpg',
+                    'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRXTkkpCodAvbiSKkCbWmEi3IuBC8O7p7P-eQ-IaMjs-AKMU4yffrIMlVYluaPOPBX3Ewsm&usqp=CAY',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>kalal</Text>
               <Text note numberOfLines={3}>
-                Tcl (4GB RAM, 64GB Storage)
+                It Doesn't Matter Whether You Are Off To A Party Wedding Office
+                Or A Simple Outing With Friends The One Attire That Will Come To
+                Your Rescue Is A Great Looking Kurti Or Kurt
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -220,7 +222,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                14000
+                500
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -231,7 +233,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  13000
+                  359
                 </Text>
               </View>
             </Body>
@@ -250,14 +252,15 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://images.indianexpress.com/2016/09/noble-skiodo-800.jpg',
+                    'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRc16hKy1-Re9dsfacRLo4rfpdTcCH-A1SHVOx6ULbcSHQNRMnh4qRU5c8_nJso1nrT9UCUC3g&usqp=CAY',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>FLORAL</Text>
               <Text note numberOfLines={3}>
-                Tcl (Black,8GB RAM, 128GB Storage)
+                Category: Dress100% PolyesterStyle: FLORAL BELL SLEEVE DRESS
+                WITH BELT Made in USAPlus Sizes Available
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -273,7 +276,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                20000
+                500
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -284,7 +287,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  17000
+                  300
                 </Text>
               </View>
             </Body>
@@ -303,14 +306,15 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://images.idgesg.net/images/article/2019/07/ru8000_006_dynamic1_black_ns-small-100801235-large.jpg',
+                    'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSOKQC2YIvkH1mlV699fRRidFJ-AHva8RoHwNnjszpAl5RHjEppCuapxiUNRVeZ0cPmz_kUl0g&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Mi Tv</Text>
+              <Text>Carolina</Text>
               <Text note numberOfLines={3}>
-                Mi Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                Carolina Herrera - floral-appliqué satin gown - women -
+                Silk/Polyester - 6 - Blue
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -326,7 +330,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                15000
+                10000
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -337,7 +341,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  7000
+                  8500
                 </Text>
               </View>
             </Body>
@@ -356,14 +360,15 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1571337447-2019-tcl-43-22-class-5-series-1571337440.jpg?crop=1xw:1xh;center,top&resize=480:*',
+                    'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSkN5WVAJIWj2TuCnyDOo6wKlcaBQ1tOTpgEfGrYAO1HI_srOg0jUtfx5LRaveB3n0-3Pl_vg&usqp=CAY',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>kurta</Text>
               <Text note numberOfLines={3}>
-                Mi Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                Ftc Fashions Women Striped Straight Kurta ₹199.00₹199.00.
+                Flipkart
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -371,7 +376,7 @@ export default function Tv({navigation}) {
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'gray'}} />
-                <Text style={{marginLeft: 5, fontSize: 13}}>50% offer</Text>
+                <Text style={{marginLeft: 5, fontSize: 13}}>10% offer</Text>
               </View>
               <Text
                 style={{
@@ -379,7 +384,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                300
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -390,7 +395,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  200
                 </Text>
               </View>
             </Body>
@@ -411,15 +416,16 @@ export default function Tv({navigation}) {
                   square
                   source={{
                     uri:
-                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lwJ2eYbGTFBCX9zJNiCJzAZ3ZA-h7OTv7w&usqp=CAU',
+                      'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTq6SJ3HTG-ArCCvSmEhWmxkRmd7fJ7uuparUwwii_u1Xyf5dt9yjXKZYQ&usqp=CAY',
                   }}
                 />
               </TouchableOpacity>
             </Left>
             <Body>
-              <Text>One Pluse</Text>
+              <Text>Leggins</Text>
               <Text note numberOfLines={3}>
-                One Pluse Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                New Women Fashion Printed Yoga Leggings Sports Exercise Running
+                Pants Fitness Workout Clothes
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -427,7 +433,7 @@ export default function Tv({navigation}) {
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'gray'}} />
-                <Text style={{marginLeft: 5, fontSize: 13}}>50% offer</Text>
+                <Text style={{marginLeft: 5, fontSize: 13}}>60% offer</Text>
               </View>
               <Text
                 style={{
@@ -435,7 +441,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                499
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -446,7 +452,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  140
                 </Text>
               </View>
             </Body>

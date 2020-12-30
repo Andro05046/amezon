@@ -19,7 +19,7 @@ import FAIcon from 'react-native-vector-icons/FontAwesome';
 import Slideimage from '../Components/Slideimage';
 import {TouchableOpacity, ScrollView} from 'react-native';
 import {Icon} from 'react-native-elements';
-export default function Tv({navigation}) {
+export default function Menscloths({navigation}) {
   return (
     <Container>
       <Header
@@ -75,7 +75,7 @@ export default function Tv({navigation}) {
                 style={{
                   fontSize: 17,
                   color: '#fff',
-                  backgroundColor: 'transparent',
+                  backgroundColor: '#757d8d',
                   padding: 5,
                   borderRadius: 5,
                 }}>
@@ -107,7 +107,7 @@ export default function Tv({navigation}) {
                 style={{
                   fontSize: 17,
                   color: '#fff',
-                  backgroundColor: '#757d8d',
+                  backgroundColor: 'transparent',
                   padding: 5,
                   borderRadius: 5,
                 }}>
@@ -141,14 +141,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1563370711-best-overall-tcl-32s327-1542026616.jpg?crop=1xw:1xh;center,top&resize=480:*',
+                    'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcScf-tpWtKiOyY_OHkrGFoVUQYtjVVHM-R3wHFc9tfaYVKtmFgLFgI6jire0QY6Txd0b5NQM50&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Onida</Text>
+              <Text>T shirt</Text>
               <Text note numberOfLines={3}>
-                Onida(,8GB RAM, 128GB Storage)
+                Buy Men’s Stylish Full sleeve Hoody Neck Cotton Red
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -164,7 +164,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                800
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -175,7 +175,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  699.00
                 </Text>
               </View>
             </Body>
@@ -194,14 +194,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://www.lg.com/hk_en/images/tvs/32ls3500/gallery/large02.jpg',
+                    'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS9Fk_w7XTUydWzFcmocNwYpYEIGPDL5kNFC2zfBaq-l4I9zM2pLTGrH3lXuzYZIvENnFJclMoA&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>Shirts</Text>
               <Text note numberOfLines={3}>
-                Tcl (4GB RAM, 64GB Storage)
+                Rebel Blue Party Wear Shirt
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -220,7 +220,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                14000
+                500
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -231,7 +231,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  13000
+                  359
                 </Text>
               </View>
             </Body>
@@ -250,14 +250,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://images.indianexpress.com/2016/09/noble-skiodo-800.jpg',
+                    'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTonfQthLMFNKmMAt8FjBa2JwT_za0ejgt8X6W9dNi-mNHfr4c&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>T.Shirt</Text>
               <Text note numberOfLines={3}>
-                Tcl (Black,8GB RAM, 128GB Storage)
+                Redbrick Black Plain Full Sleeve Hooded Casual ...
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -273,7 +273,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                20000
+                500
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -284,7 +284,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  17000
+                  300
                 </Text>
               </View>
             </Body>
@@ -303,14 +303,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://images.idgesg.net/images/article/2019/07/ru8000_006_dynamic1_black_ns-small-100801235-large.jpg',
+                    'https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSFQnz02ANEPUQxG94IZcHfpqwABZTCZpB5PFl_2E9rxQrqRZX_AdAkVUrO_48&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Mi Tv</Text>
+              <Text>Shirts</Text>
               <Text note numberOfLines={3}>
-                Mi Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                Hot 2018 Summer New Fashion Brand Clothing Men ...
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -326,7 +326,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                15000
+                10000
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -337,7 +337,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  7000
+                  8500
                 </Text>
               </View>
             </Body>
@@ -356,14 +356,14 @@ export default function Tv({navigation}) {
                 square
                 source={{
                   uri:
-                    'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1571337447-2019-tcl-43-22-class-5-series-1571337440.jpg?crop=1xw:1xh;center,top&resize=480:*',
+                    'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT4fV50ktipudSuTFfDLl_CDbNTsKwDOQtbk-xpVnP9IklP7zpAKTzaURfmP4tvEw8X5rH0Z1E&usqp=CAE',
                 }}
               />
             </Left>
             <Body>
-              <Text>Tcl</Text>
+              <Text>Shirts</Text>
               <Text note numberOfLines={3}>
-                Mi Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                Highlander Men Solid Casual Green Shirt
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -371,7 +371,7 @@ export default function Tv({navigation}) {
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'gray'}} />
-                <Text style={{marginLeft: 5, fontSize: 13}}>50% offer</Text>
+                <Text style={{marginLeft: 5, fontSize: 13}}>10% offer</Text>
               </View>
               <Text
                 style={{
@@ -379,7 +379,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                300
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -390,7 +390,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  200
                 </Text>
               </View>
             </Body>
@@ -411,15 +411,15 @@ export default function Tv({navigation}) {
                   square
                   source={{
                     uri:
-                      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1lwJ2eYbGTFBCX9zJNiCJzAZ3ZA-h7OTv7w&usqp=CAU',
+                      'https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT6OX5VpUCV_J4e8bhlaV24pJdvsYIV5CaOPGj5Z9-mQsz9Q-4txO9zd8LFwvfJF1UhaB9QFkg&usqp=CAE',
                   }}
                 />
               </TouchableOpacity>
             </Left>
             <Body>
-              <Text>One Pluse</Text>
+              <Text>T Shirts</Text>
               <Text note numberOfLines={3}>
-                One Pluse Tv S1 Pro (Black,8GB RAM, 128GB Storage)
+                HRX by Hrithik Roshan Men Yellow Printed Round
               </Text>
               <View style={{flexDirection: 'row', marginTop: 5}}>
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
@@ -427,7 +427,7 @@ export default function Tv({navigation}) {
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'orange'}} />
                 <FAIcon name="star" style={{fontSize: 15, color: 'gray'}} />
-                <Text style={{marginLeft: 5, fontSize: 13}}>50% offer</Text>
+                <Text style={{marginLeft: 5, fontSize: 13}}>60% offer</Text>
               </View>
               <Text
                 style={{
@@ -435,7 +435,7 @@ export default function Tv({navigation}) {
                   textDecorationLine: 'line-through',
                   textDecorationStyle: 'solid',
                 }}>
-                13000
+                499
               </Text>
               <View style={{flexDirection: 'row'}}>
                 <Text>price :</Text>
@@ -446,7 +446,7 @@ export default function Tv({navigation}) {
                     marginTop: 3,
                     marginLeft: 3,
                   }}>
-                  12000
+                  140
                 </Text>
               </View>
             </Body>
