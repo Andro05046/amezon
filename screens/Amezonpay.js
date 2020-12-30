@@ -73,8 +73,8 @@ export default function Payments({navigation}) {
             </View>
             <View>
 
-            <Button style={{borderRadius:10,width:350,hight:200,justifyContent:'center',marginLeft:30,marginTop:20}} iconLeft dark >
-            <Icon color='white' name='' />
+            <Button style={{borderRadius:10,width:350,hight:200,justifyContent:'center',marginLeft:30,marginTop:20}}  dark >
+            <Icon color='white' />
             <Text onPress={() =>navigation.navigate("Checkout")} style={{fontSize:20 }}>PAY NOW</Text>
           </Button>
             </View>

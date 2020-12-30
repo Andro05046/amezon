@@ -14,7 +14,7 @@ class Product extends React.Component {
         <Card
             >
               <Right>
-              <Thumbnail style={{width:150,hight:150,marginLeft:50,}} size={200} source={{uri: 'https://vader-prod.s3.amazonaws.com/1543958419-810KAtkwn6L.jpg'}} />
+              <Thumbnail containerstyle={{width:150,hight:150,marginLeft:50,}} size={200} source={{uri: 'https://vader-prod.s3.amazonaws.com/1543958419-810KAtkwn6L.jpg'}} />
               </Right>
             <Text style={{marginBottom: 10, marginTop: 20 }} h2>
                 Kid shoes

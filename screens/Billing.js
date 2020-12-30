@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Image, TouchableOpacity } from 'react-native';
-import { Container, Header, Content, Card, CardItem, Thumbnail,Title, Text, Left, Body, Right, View, Item,Button } from 'native-base';
+import { Container, Header, Content,CardItem,Title, Text, View, Button } from 'native-base';
 import { Input, Icon } from 'react-native-elements';
 import { ScrollView } from 'react-native-gesture-handler';
 export default function Billing({navigation}) {
@@ -66,13 +66,13 @@ export default function Billing({navigation}) {
             </View>
 
             <View>
-              <Text style={{color:'#00BFFF',marginLeft:10}}>New Address</Text>
+              <Text onPress={() =>navigation.navigate("Newaddress")} style={{color:'#00BFFF',marginLeft:10}}>New Address</Text>
             
             </View>
             <View>
 
             <Button style={{borderRadius:10,width:350,hight:200,justifyContent:'center',marginLeft:30,marginTop:20}} iconLeft dark >
-            <Icon color='white' name='' />
+            <Icon color='white' />
             <Text onPress={() =>navigation.navigate("Amezonpay")} style={{fontSize:20 }}>NEXT</Text>
           </Button>
             </View>

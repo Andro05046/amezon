@@ -71,7 +71,7 @@ export default function Billing({navigation}) {
             </View>
             <View>
             <Button onPress={() =>navigation.navigate("Billing")} style={{borderRadius:10,width:350,hight:200,justifyContent:'center',marginLeft:30,marginTop:60}} iconLeft dark >
-            <Icon color='white' name='' />
+            <Icon color='white' />
             <Text style={{fontSize:20 }}>NEXT</Text>
           </Button>
             </View>

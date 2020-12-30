@@ -47,7 +47,7 @@ export default function Todaysdeals({navigation}) {
           </View>
 
            <View style={{justifyContent:'center',flexDirection:'row'}}>
-             <Icon color='blue' name="map" type='FontAwesome' /><Text style={{fontSize:15,fontWeight:'semi-bold'}}>Track</Text></View>
+             <Icon color='blue' name="map" type='FontAwesome' /><Text style={{fontSize:15,fontWeight:'bold'}}>Track</Text></View>
 
             <View>
 

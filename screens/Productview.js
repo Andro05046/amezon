@@ -146,7 +146,7 @@ export default function Productview ({navigation}) {
                                 <FAIcon name="whatsapp" style={{ fontSize: 19, color: '#25D366' }} />
                                 <FAIcon name="facebook" style={{ fontSize: 19, color: '#4267B2' }} />
                                 <FAIcon name="twitter" style={{ fontSize: 19, color: '#1DA1F2' }} />
-                                <FAIcon name="linkedin" style={{ fontSize: 19, color: ' #0e76a8' }} />
+                                <FAIcon name="linkedin" style={{ fontSize: 19, color: 'black' }} />
                                 </View>
                     
                     <List>
